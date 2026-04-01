@@ -12,6 +12,15 @@ the following form: YYYY.0M.0D.
 - Fixed broken links
 - Disabled AI features globally
 
+### Added
+
+- Designed kernel and enhanced interfaces for the RacePredictor component
+
+### Updated
+
+- Refined component design after proof-of-concept implementation
+
+
 ## [2024.12.30]
 
 - Added table-based rubrics to all 6 parts of the project
