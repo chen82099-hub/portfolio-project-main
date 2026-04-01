@@ -12,6 +12,15 @@ the following form: YYYY.0M.0D.
 - Fixed broken links
 - Disabled AI features globally
 
+### Added
+
+- Designed kernel and enhanced interfaces for the RacePredictor component
+
+### Updated
+
+- Refined component design after proof-of-concept implementation
+
+
 ## [2024.12.30]
 
 - Added table-based rubrics to all 6 parts of the project
@@ -75,7 +84,7 @@ the following form: YYYY.0M.0D.
 - Added a `settings.json` file to customize the student experience
 - Created a README at the root to explain how to use the template repo
 - Created initial drafts of the six portfolio assessments
-- Added READMEs to key folders like `test` and `lib` to explain their purpose
+- Added READMEs to key folders like `test` and `lib` to explain their purpose.
 
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
