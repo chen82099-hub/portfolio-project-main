@@ -12,6 +12,26 @@ the following form: YYYY.0M.0D.
 - Fixed broken links
 - Disabled AI features globally
 
+## 2026.4.15
+### Added
+- Implemented RacePredictor1L using Set representation
+
+## 2026.4.1
+### Added
+
+- Implemented RacePredictorSecondary abstract class
+- Added predictPodium() using kernel methods only
+- Implemented toString() and equals()
+
+### Changed
+
+- Added removeAny() to RacePredictorKernel to support iteration in secondary methods
+- Updated design to ensure all enhanced methods rely only on kernel methods
+
+### Fixed
+
+- Ensured all kernel method calls satisfy preconditions using assertions
+
 ### Added
 
 - Designed kernel and enhanced interfaces for the RacePredictor component
