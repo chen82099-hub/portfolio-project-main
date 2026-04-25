@@ -25,7 +25,7 @@ public interface RacePredictorKernel extends Standard<RacePredictor> {
      * Returns the number of race results stored in the history.
      *
      * @return the total number of stored race results
-     * @ensures historySize = |this|
+     * @ensures result = |this|
      */
     int historySize();
 
