@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Rachel Chen
+- **Dot Number**: chen.14993
+- **Due Date**: 4/24 11:59 p.m.
 
 ## Assignment Overview
 
@@ -50,7 +50,6 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -141,7 +140,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +305,30 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+Before working on the portfolio project, I thought software development was mostly about writing code to solve a specific problem. However, after completing this project, I now have a much better understanding of how software development actually works in practice.
+
+In particular, the process of designing interfaces, separating kernel and secondary methods, and implementing contracts showed me that real-world software is built in layers rather than all at once. I also realized that planning and structure are just as important as coding itself. For example, I had to think carefully about how each method would be used by a client before I even started implementing it.
+
+Additionally, working with Git and managing multiple branches helped me understand how developers collaborate and manage changes in real projects. Overall, this project made software development feel much closer to a real-world process rather than just completing isolated assignments.
+
+It was more challenging than I expected, but also more rewarding because I could see how all the pieces fit together into a complete system.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+Working on the portfolio project definitely revealed several gaps in my understanding of software development. One major gap was my lack of experience with designing clean and well-structured interfaces. At the beginning, I focused more on getting code to work rather than thinking about how a client would use the component or how to properly separate responsibilities between kernel and secondary methods.
+
+To address these gaps, I spent time reviewing lecture materials and looking at examples from class, especially how OSU components are structured. I also iteratively refined my code by comparing my design to the expected discipline and incorporating feedback from earlier parts of the project. Over time, this helped me develop a better sense of how to design components more systematically rather than just writing code that works.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+Completing the portfolio project has significantly changed my perspective on software development. Before this project, I mainly saw programming as writing code to solve individual problems or gain higher makrs in the exam. However, through this process, I realized that software development is much more about planning, structure, and maintainability than I originally thought. Designing components, writing contracts, and organizing code across multiple layers made me understand how real systems are built over time.
+
+Although the project was sometimes challenging and even frustrating, especially when dealing with design decisions or debugging, I still find software development enjoyable. In fact, I enjoy it more now because I have a clearer understanding of how everything fits together. Instead of just focusing on getting code to work, I now appreciate the process of building something well-structured and reusable. And it is such a good feeling to know you actually finished something larger than homeworks or projects.
+
+Overall, this project made software development feel more realistic and meaningful, and it reinforced my interest in continuing to learn and improve in this field.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +336,43 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+Through the portfolio project, I developed both technical and non-technical skills. On the technical side, I improved my ability to design software components using abstraction, especially by separating kernel and secondary methods and applying design-by-contract principles. I also became more comfortable with writing structured Java code and thinking about how an API should be used by a client.
+
+Beyond technical skills, I also developed problem-solving and self-learning skills. Many parts of the project required me to figure things out independently, especially when debugging issues or refining my design. I totally understand that ChatGPT haters' opinions but it does help a lot when I came to issues and knew nothing to solve. I also improved my ability to plan and organize larger tasks, although im in a rush sometimes. Since this project required managing multiple parts over time rather than completing a single assignment in one sitting.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+<- Designed and implemented a modular Java component using abstraction and layered architecture (kernel, secondary, interfaces)
+
+- Developed and executed a comprehensive JUnit test suite to validate component functionality and correctness
+
+- Created multiple use cases demonstrating practical applications of the component in different scenarios
+
+- Improved problem-solving and debugging skills through iterative development and testing
+
+- Strengthened ability to write clean, readable, and maintainable code following established coding standards
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+Working on this project has made me more interested in the area I chose rather than less. At the beginning, I was not entirely sure how relevant this topic would be to my future goals, but through the process of designing and implementing the component, I found that I actually enjoy working with data and building systems that can generate meaningful insights.
+
+This project also helped me see how concepts from class, such as abstraction and structured design, connect to real-world applications like data analysis and decision-making. As a result, I feel more confident about pursuing a path related to data analytics or software development in the future.
+
+Instead of discouraging me, this experience reinforced my interest and gave me a clearer idea of the type of work I would like to do going forward.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To continue developing along my current career path, I plan to build more projects that combine programming and data analysis so I can strengthen both my technical skills and my ability to apply them in practical scenarios. I also want to take more advanced courses in areas such as data structures, algorithms, and statistics, since these are important foundations for both software development and data-related roles.
+
+For mentorship, I could reach out to my professors or instructors who have experience in software engineering or data science, as they can provide guidance on both academic and career decisions. I could also connect with teaching assistants or more experienced students who have already gone through similar career paths. In the future, I would also consider reaching out to professionals on platforms like LinkedIn to learn more about industry expectations and career development.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -383,8 +407,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -435,7 +457,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9

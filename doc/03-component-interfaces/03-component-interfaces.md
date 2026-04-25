@@ -1,8 +1,8 @@
 # Portfolio Part 3: Component Interfaces
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Rachel Chen
+- **Dot Number**:Chen.14993
+- **Due Date**: 3/10 12:40
 
 ## Assignment Overview
 
@@ -43,8 +43,6 @@ component to be able to do? Now that you've had a chance to create a
 proof-of-concept, you should be able to answer this question to some extent.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -132,7 +130,36 @@ hierarchy diagram using whatever tools you would like. Then, include a picture
 of it in this folder. You may also embed it just below using markdown syntax
 (i.e., `![ALT TEXT](path/to/file)`).
 
-<!-- TODO: make a diagram of your component hierarchy then delete this comment -->
+### Component Hierarchy Diagram
+
+        Standard<RacePredictor>
+                 ↑
+      RacePredictorKernel
+                 ↑
+        RacePredictor
+
+The `RacePredictor` component follows the standard OSU interface hierarchy:
+
+![RacePredictor hierarchy diagram](./racepredictor-hierarchy.svg)
+
+This hierarchy shows:
+
+- `RacePredictorKernel` extends `Standard<RacePredictor>` and provides the
+  minimal kernel operations.
+- `RacePredictor` extends `RacePredictorKernel` and adds enhanced,
+  client-facing behavior.
+
+### Design Changes Since Proof Of Concept
+
+- Refined the component into a formal OSU-style hierarchy with a separate
+  kernel interface and enhanced interface.
+- Kept the minimal state-manipulation operations in the kernel so the
+  higher-level behavior could be layered on top later in the abstract class.
+- Added the enhanced method `predictPodium()` to expose the main analytical
+  behavior promised by the proof of concept.
+- Added `removeAny()` to the kernel design so future secondary methods could
+  inspect and restore component state while still following the OSU discipline.
+
 
 To start making your interfaces, make a branch off of main in your new repo
 called something like `interfaces`. There are many ways to do this, but my
@@ -154,7 +181,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -176,8 +202,6 @@ The following sections detail everything that you should do once you've
 completed the assignment.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -212,7 +236,6 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -262,7 +285,6 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [natural-number-kernel]: https://cse22x1.engineering.osu.edu/common/doc/src-html/components/naturalnumber/NaturalNumberKernel.html
 [natural-number]: https://cse22x1.engineering.osu.edu/common/doc/src-html/components/naturalnumber/NaturalNumber.html
