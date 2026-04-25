@@ -35,7 +35,7 @@ public interface RacePredictorKernel extends Standard<RacePredictor> {
      * @return a race position
      * @requires historySize() > 0
      * @updates this
-     * @ensures removeAny is in #this and #this = this union {removeAny}
+     * @ensures removeAny ∈ #this and this = #this \ {removeAny}
      */
     int removeAny();
 }
