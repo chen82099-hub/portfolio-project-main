@@ -105,7 +105,9 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-- I have selected the RacePredictor (Streamer Style) for my implementation. I chose this because it is the most feasible to complete within the semester's time constraints. The linear, chronological structure is easier to manage than the batch-processing "Assembler" style, allowing me to focus more on the predictive logic while still strictly following the OSU software sequence discipline.
+- I have selected the RacePredictor (Streamer Style) for my implementation. I chose this because it is the most feasible to complete within the semester's time constraints. The linear, chronological structure is easier to manage than the batch-processing "Assembler" style, allowing me to focus more on the predictive logic while still strictly following the OSU software sequence discipline.// old
+
+- I selected the RacePredictor for my implementation based on several practical considerations. First, it is more feasible to complete within the limited time constraints of the semester, as its linear and incremental structure reduces implementation complexity. Second, this design aligns better with my current programming experience, allowing me to focus on developing the predictive logic rather than managing complex data transformations. Third, the streaming approach improves maintainability and extensibility, as new race results can be incorporated incrementally without restructuring the entire dataset. Finally, this design more clearly demonstrates the value of the component from a client perspective, making it easier to showcase its usefulness in the proof-of-concept.
 
 
 > Once you've argued your choice of design, make a branch in your new repo called
@@ -117,7 +119,6 @@ Below is further rationale/explanation for the rubric items above:
 > we'll want a branch that you can later make a pull request from with all
 > your changes.
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -143,8 +144,6 @@ The following sections detail everything that you should do once you've
 completed the assignment.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -179,7 +178,6 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -201,8 +199,6 @@ recommend keeping the pull request open until at least a peer has had a chance
 to look over your changes. Otherwise, you defer needed changes to later pull
 requests, which could sacrifice the overall quality of your work or result in
 major rework.
-
-<!-- TODO: paste the URL to Carmen then delete this comment -->
 
 ### Peer Review
 
@@ -232,8 +228,6 @@ table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [pottery-fails]: https://www.youtube.com/shorts/Kqb9l113F_0?feature=share
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
