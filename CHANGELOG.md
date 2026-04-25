@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## 2026.04.24
+
+### Added
+- Test suite for RacePredictor
+- Two use cases
+
+### Updated
+- Improved documentation and reflection
+
 ## [Unreleased]
 
 - Disabled an aspect of the coderunner extension

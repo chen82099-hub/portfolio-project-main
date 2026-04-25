@@ -4,8 +4,8 @@ import components.standard.Standard;
  * Kernel interface for the {@code RacePredictor} component.
  *
  * <p>
- * This component models a mutable collection of race finishing positions that
- * can be updated over time and inspected through kernel operations.
+ * This component models a mutable sequence of race finishing positions that can
+ * be updated over time and inspected through kernel operations.
  * </p>
  */
 public interface RacePredictorKernel extends Standard<RacePredictor> {
@@ -17,7 +17,7 @@ public interface RacePredictorKernel extends Standard<RacePredictor> {
      *            the finishing position of the driver (restores mode)
      * @updates this
      * @requires position > 0
-     * @ensures this = #this union {position}
+     * @ensures this = #this o <position>
      */
     void enterResult(int position);
 
@@ -35,7 +35,8 @@ public interface RacePredictorKernel extends Standard<RacePredictor> {
      * @return a race position
      * @requires historySize() > 0
      * @updates this
-     * @ensures removeAny ∈ #this and this = #this \ {removeAny}
+     * @ensures removeAny is in #this and
+     *          this = #this without one occurrence of removeAny
      */
     int removeAny();
 }
